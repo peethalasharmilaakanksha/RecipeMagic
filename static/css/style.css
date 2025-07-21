@@ -1,0 +1,27 @@
+:root {
+  --primary: #ff6b6b;
+  --dark: #343a40;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+.navbar-brand {
+  font-weight: 600;
+}
+.hero {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  border-radius: 10px;
+}
+#output {
+  background: white;
+  border-left: 4px solid var(--primary);
+  white-space: pre-wrap;
+}
+.btn-primary {
+  background-color: var(--primary);
+  border: none;
+}
+.form-select[multiple] {
+  height: auto;
+}

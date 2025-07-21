@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+venv/
+*.pyc
+
+# Environment
+.env
+firebase-admin.json
+
+# IDE
+.vscode/
+.idea/
+

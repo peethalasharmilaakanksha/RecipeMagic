@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAN4mtnSONe9zq2-6qeHsvlxED8S0JBDqo",
-  authDomain: "recipemagic-eae24.firebaseapp.com",
-  projectId: "recipemagic-eae24",
-  storageBucket: "recipemagic-eae24.appspot.com",
-  messagingSenderId: "923506249829",
-  appId: "1:923506249829:web:087b600d2b463f5bb3f68c",
-  measurementId: "G-6QH7L7Z4Z9",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
 const app = initializeApp(firebaseConfig);
